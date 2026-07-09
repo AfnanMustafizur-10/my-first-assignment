@@ -1,0 +1,110 @@
+/*  font */  
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+/* shared */
+
+.text-center{
+    text-align: center;
+}
+
+.btn-primary{
+    border-radius: 10px;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 12px 36px 12px 36px;
+    height: 48px;
+}
+/* header */
+header{
+    background-image: url(../images/Hero-bg.png);
+    height: 698px;
+}
+    
+
+/* Nav section */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    color: rgba(78, 71, 255, 1);
+    font-size: 34px;
+    font-weight:900;
+    padding-left: 150px;
+}
+.nav-button{
+    margin-right:150px;
+    margin-top: 51px;
+}
+
+/* Banner section */
+
+.banner-title{
+    font-size: 100px;
+    font-weight: bold;
+    color: #252432;
+}
+
+/* main */
+
+main{
+    max-width: 1380px;
+    margin: 0px auto;
+}
+/* Action */
+.action{
+    display: flex;
+    justify-content: space-between;
+    gap: 220px;
+    margin-top:116px ;
+    margin-bottom: 0;
+    
+}
+
+/* product */
+.Productive {
+    margin-top: 116px;
+    background-color: rgba(78, 71, 255, 0.1);
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-around;
+}
+.product-title-main{
+    font-size: 38px;
+    font-weight: bold;
+    color:#252432 ;
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+.product-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 0;
+}
+.product-des{
+    font-size: 20px;
+    color: #000000;
+    margin-top: 0;
+}
