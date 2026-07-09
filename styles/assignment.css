@@ -33,6 +33,9 @@
     padding: 12px 36px 12px 36px;
     height: 48px;
 }
+.btn-primary:hover{
+    background-color: black;
+}
 /* header */
 header{
     background-image: url(../images/Hero-bg.png);
@@ -85,6 +88,7 @@ main{
     margin-top: 116px;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius:24px ;
+    
 }
 
 .product-container{
@@ -108,4 +112,48 @@ main{
     font-size: 20px;
     color: #000000;
     margin-top: 0;
+    padding-bottom: 50px;
+  
+}
+
+/* card-section */
+.User-review{
+    margin-top: 127px;
+}
+
+.card-container{
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px;}
+
+.card{
+    background-color:#FFFFFF;
+    border: 1px solid #F2EDED;
+    padding: 10px 24px ;
+    border-radius: 14px;
+    width: 367px;
+    color: rgba(117, 117, 117, 1);
+}
+.card-title{
+font-size: 30PX;
+margin-bottom: 0PX;
+padding-bottom: 0PX ;
+}
+.card-des{
+    font-size: 20px;
+}
+.user-details{
+    display: flex;
+    gap: 12px;
+    margin-top: 0px;
+}
+
+.pic{
+    padding-top: 15px;
+}
+.user-name{
+    font-weight: 700;
+}
+.card:hover{
+    background-color: bisque;
 }
