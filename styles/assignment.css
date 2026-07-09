@@ -84,6 +84,7 @@ main{
 .Productive {
     margin-top: 116px;
     background-color: rgba(78, 71, 255, 0.1);
+    border-radius:24px ;
 }
 
 .product-container{
