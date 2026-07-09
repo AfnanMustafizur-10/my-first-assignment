@@ -1,30 +1,30 @@
-/*  font */  
+/*  font */
 
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
-  
+
 
 
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 
 
 /* shared */
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 10px;
     background-color: #4E47FF;
     font-size: 16px;
@@ -33,35 +33,39 @@
     padding: 12px 36px 12px 36px;
     height: 48px;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: black;
 }
+
 /* header */
-header{
+header {
     background-image: url(../images/Hero-bg.png);
     height: 698px;
 }
-    
+
 
 /* Nav section */
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
 }
-.nav-title{
+
+.nav-title {
     color: rgba(78, 71, 255, 1);
     font-size: 34px;
-    font-weight:900;
+    font-weight: 900;
     padding-left: 150px;
 }
-.nav-button{
-    margin-right:150px;
+
+.nav-button {
+    margin-right: 150px;
     margin-top: 51px;
 }
 
 /* Banner section */
 
-.banner-title{
+.banner-title {
     font-size: 100px;
     font-weight: bold;
     color: #252432;
@@ -69,91 +73,201 @@ header{
 
 /* main */
 
-main{
+main {
     max-width: 1380px;
     margin: 0px auto;
+   
+    background-color: #rgba(30, 30, 30, 1);
 }
+
 /* Action */
-.action{
+.action {
     display: flex;
     justify-content: space-between;
     gap: 220px;
-    margin-top:116px ;
+    margin-top: 116px;
     margin-bottom: 0;
-    
+
 }
 
 /* product */
 .Productive {
     margin-top: 116px;
     background-color: rgba(78, 71, 255, 0.1);
-    border-radius:24px ;
-    
+    border-radius: 24px;
+
 }
 
-.product-container{
+.product-container {
     display: flex;
     justify-content: space-around;
 }
-.product-title-main{
+
+.product-title-main {
     font-size: 38px;
     font-weight: bold;
-    color:#252432 ;
+    color: #252432;
     margin-bottom: 0px;
     padding-top: 50px;
 }
-.product-title{
+
+.product-title {
     font-size: 80px;
     font-weight: bold;
     color: rgba(78, 71, 255, 1);
     margin-bottom: 0;
 }
-.product-des{
+
+.product-des {
     font-size: 20px;
     color: #000000;
     margin-top: 0;
     padding-bottom: 50px;
-  
+
 }
 
 /* card-section */
-.User-review{
+.User-review {
     margin-top: 127px;
 }
 
-.card-container{
-    display: flex; 
+.card-container {
+    display: flex;
     justify-content: space-between;
-    gap: 20px;}
+    gap: 20px;
+}
 
-.card{
-    background-color:#FFFFFF;
+.card {
+    background-color: #FFFFFF;
     border: 1px solid #F2EDED;
-    padding: 10px 24px ;
+    padding: 10px 24px;
     border-radius: 14px;
     width: 367px;
     color: rgba(117, 117, 117, 1);
 }
-.card-title{
-font-size: 30PX;
-margin-bottom: 0PX;
-padding-bottom: 0PX ;
+
+.card-title {
+    font-size: 30PX;
+    margin-bottom: 0PX;
+    padding-bottom: 0PX;
 }
-.card-des{
+
+.card-des {
     font-size: 20px;
 }
-.user-details{
+
+.user-details {
     display: flex;
     gap: 12px;
     margin-top: 0px;
 }
 
-.pic{
+.pic {
     padding-top: 15px;
 }
-.user-name{
+
+.user-name {
     font-weight: 700;
 }
-.card:hover{
+
+.card:hover {
     background-color: bisque;
+}
+
+
+/* ready */
+.ready {
+    margin-top: 127px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    border: 0.5px solid black;
+}
+
+.ready-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ready-des {
+    font-size: 16px;
+
+}
+
+.img-wc {
+    padding-top: 10px;
+
+    border-radius: 50px;
+}
+
+/* form */
+.two-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-title {
+    font-size: 97px;
+    font-weight: bold;
+    justify-content: center;
+    width: 528px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.main-form {
+    padding-top: 166px;
+}
+
+.label-den {
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+.Input-den {
+    width: 500PX;
+    height: 70px;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+::placeholder {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.Input-den-chobi {
+    width: 500PX;
+    height: 70px;
+    border-radius: 10px;
+}
+
+/* footer */
+.last-link {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+    color: #8987A1;
+    font-size: 25px;
+}
+
+
+ul li a{
+    text-decoration: none;
+}
+.footer-title{
+    font-size: 100px;
+    color:rgba(78, 71, 255, 1);
+    font-weight:900 ;
+    margin-bottom: 0;
+}
+.footer-dis{
+    margin: 0 154px 0 154px;
+    font-size: 25px;
 }
